@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.CountdownTimer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.CountdownTimer__block {
+  margin-right: 20px;
+}
+
+.CountdownTimer__block:last-child {
+  maring-right: 0;
+}
+
+.CountdownTimer__digit {
+  display: inline-block;
+  margin-right: 5px;
+  width: 40px;
+  background-color: #494949;
+  color: white;
+  line-height: 30px;
+  height: 30px;
+}
